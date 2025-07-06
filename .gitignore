@@ -1,0 +1,15 @@
+# OSゴミ
+.DS_Store
+Thumbs.db
+
+# Obsidian内キャッシュ（履歴・UI位置など）
+.obsidian/workspace
+.obsidian/cache
+
+# モバイル環境で使っていた場合のログ
+.obsidian/ob-mobile.json
+
+# 一時ファイル（Conflict時にできる）
+*.swp
+*~
+
