@@ -6,11 +6,12 @@
       {
         "id": "411d032022af772c",
         "type": "split",
+        "dimension": 61.96043165467626,
         "children": [
           {
             "id": "90bb7d44247b8cef",
             "type": "tabs",
-            "dimension": 63.496316141995976,
+            "dimension": 30.679156908665107,
             "children": [
               {
                 "id": "f932feb95cf37008",
@@ -44,7 +45,7 @@
           {
             "id": "007d8fa46089ed07",
             "type": "tabs",
-            "dimension": 36.50368385800402,
+            "dimension": 69.3208430913349,
             "children": [
               {
                 "id": "6529970662d987a6",
@@ -81,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: zsh"
+                  "title": "Terminal: ✳ 言語切替"
                 }
               }
             ]
@@ -92,6 +93,7 @@
       {
         "id": "d414f684f65b24bd",
         "type": "tabs",
+        "dimension": 38.039568345323744,
         "children": [
           {
             "id": "d103c86e0787ae32",
