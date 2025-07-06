@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "73539227b6783d52",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6718263f106c1bcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
         "id": "863970d04fdf6bfc",
         "type": "tabs",
         "children": [
@@ -184,7 +164,7 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "6718263f106c1bcb",
+  "active": "57b736f0833cbdad",
   "lastOpenFiles": [
     "Welcome.md"
   ]
