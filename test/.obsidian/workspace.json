@@ -82,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: ✳ セキュリティ改善"
+                  "title": "Terminal: ✳ README 翻訳"
                 }
               }
             ]
@@ -272,6 +272,7 @@
   },
   "active": "6529970662d987a6",
   "lastOpenFiles": [
+    "claude-screenshot/README_ja.md",
     "claude-screenshot/install.ps1",
     "claude-screenshot/install.sh.sha256",
     "claude-screenshot/safe-install.sh",
@@ -285,7 +286,6 @@
     "claude-screenshot/claude-commands/sslist.md",
     "claude-screenshot/claude-commands/ssshow.md",
     "claude-screenshot/claude-commands/ss.md",
-    "claude-screenshot/scripts",
     "claude-screenshot/README.md",
     "無題のファイル.md",
     "claude_screenshot20250709.md",
