@@ -82,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: ✳ File Sharing"
+                  "title": "Terminal: ✳ Command Options"
                 }
               }
             ]
@@ -270,7 +270,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "921110f3eb66a6fa",
+  "active": "6529970662d987a6",
   "lastOpenFiles": [
     "無題のファイル.md",
     "claude_screenshot20250709.md",
