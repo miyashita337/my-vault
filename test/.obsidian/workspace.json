@@ -6,12 +6,12 @@
       {
         "id": "411d032022af772c",
         "type": "split",
-        "dimension": 61.96043165467626,
+        "dimension": 61.960431654676256,
         "children": [
           {
             "id": "90bb7d44247b8cef",
             "type": "tabs",
-            "dimension": 30.679156908665107,
+            "dimension": 30.67915690866511,
             "children": [
               {
                 "id": "f932feb95cf37008",
@@ -82,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: ✳ FLUX.1 Kontext"
+                  "title": "Terminal: zsh"
                 }
               }
             ]
@@ -93,7 +93,7 @@
       {
         "id": "d414f684f65b24bd",
         "type": "tabs",
-        "dimension": 38.039568345323744,
+        "dimension": 38.03956834532374,
         "children": [
           {
             "id": "d103c86e0787ae32",
