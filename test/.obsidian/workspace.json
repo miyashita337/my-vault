@@ -272,6 +272,8 @@
   },
   "active": "6529970662d987a6",
   "lastOpenFiles": [
+    "claude-screenshot/install.sh.sha256",
+    "claude-screenshot/safe-install.sh",
     "claude-screenshot/scripts/ss",
     "claude-screenshot/scripts/setup_screenshot_automation.sh",
     "claude-screenshot/scripts/screenshot_manager.sh",
@@ -284,8 +286,6 @@
     "claude-screenshot/claude-commands/ss.md",
     "claude-screenshot/scripts",
     "claude-screenshot/install.sh",
-    "claude-screenshot/docs",
-    "claude-screenshot/claude-commands",
     "claude-screenshot/README.md",
     "無題のファイル.md",
     "claude_screenshot20250709.md",
