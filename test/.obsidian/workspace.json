@@ -6,7 +6,7 @@
       {
         "id": "411d032022af772c",
         "type": "split",
-        "dimension": 61.960431654676256,
+        "dimension": 46.604046242774565,
         "children": [
           {
             "id": "90bb7d44247b8cef",
@@ -82,7 +82,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: ✳ 画面確認"
+                  "title": "Terminal: ✳ Obsidian Note"
                 }
               }
             ]
@@ -93,16 +93,20 @@
       {
         "id": "d414f684f65b24bd",
         "type": "tabs",
-        "dimension": 38.03956834532374,
+        "dimension": 53.395953757225435,
         "children": [
           {
             "id": "d103c86e0787ae32",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "claude_screenshot20250709.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "claude_screenshot20250709"
             }
           }
         ]
@@ -253,6 +257,7 @@
   },
   "active": "6529970662d987a6",
   "lastOpenFiles": [
+    "claude_screenshot20250709.md",
     "Screenshots.md",
     "aaaaaaaa.md",
     "Welcome.md",
