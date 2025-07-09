@@ -115,12 +115,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "超巨大なやつ/無題のファイル.md",
+                "file": "超巨大なやつ/超巨大なmysqlのリストアを高速でする方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "無題のファイル"
+              "title": "超巨大なmysqlのリストアを高速でする方法"
             }
           }
         ],
@@ -273,7 +273,7 @@
   "active": "921110f3eb66a6fa",
   "lastOpenFiles": [
     "依頼書20250709.md",
-    "超巨大なやつ/無題のファイル.md",
+    "超巨大なやつ/超巨大なmysqlのリストアを高速でする方法.md",
     "超巨大なやつ",
     "claude-screenshot/新規依頼.md",
     "claude-screenshot/zenn-article.md",
