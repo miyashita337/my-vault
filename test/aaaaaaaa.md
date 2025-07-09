@@ -43,4 +43,14 @@ grep: ./.git: Is a directory
 
 
 
+![[Pasted image 20250709203341.png]]
 
+![[Pasted image 20250709203345.png]]
+![[Pasted image 20250709203352.png]]
+
+
+
+
+では
+https://github.com/miyashita337/claude-screenshot
+をみてQuickStartを実行してください
