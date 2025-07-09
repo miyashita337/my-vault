@@ -2,7 +2,11 @@
 
 vaultの概念そもそも不必要です
 
-harieshokunin@SG1Atrantis-2 ~/my-vault/test/claude-screenshot
+例えば
+
+現在のローカルディレクトリ構造 /Users/harieshokunin/にgit clone したらvalutのディレクトリってどうなります？エラーになりますよね、なのでそもそもmy-vault以下がワーキングディレクトリという前提ではありませんし、どこにおいて、インストールできて動作する実装であってほしいです
+
+```harieshokunin@SG1Atrantis-2 ~/my-vault/test/claude-screenshot
  % find . -name "*.*" |xargs grep "vault"
 grep: .: Is a directory
 ./README_ja.md:macOSとWindows対応の包括的なスクリーンショット自動化システム。Claude CodeとObsidian vaultとの統合機能付き。
@@ -34,3 +38,9 @@ grep: .: Is a directory
 ./scripts/master_setup.sh:    setup_vault_integration
 ./scripts/master_setup.sh:that integrates with Claude Code and Obsidian vaults.
 grep: ./.git: Is a directory
+```
+
+
+
+
+
