@@ -115,12 +115,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aaaaaaaa.md",
+                "file": "claude-screenshot/新規依頼.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "aaaaaaaa"
+              "title": "新規依頼"
             }
           }
         ],
@@ -270,14 +270,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6529970662d987a6",
+  "active": "921110f3eb66a6fa",
   "lastOpenFiles": [
-    "依頼書20250709.md",
+    "claude-screenshot/zenn-article.md",
+    "claude-screenshot/新規依頼.md",
+    "claude_screenshot20250709.md",
     "aaaaaaaa.md",
+    "依頼書20250709.md",
     "Pasted image 20250709203352.png",
     "Pasted image 20250709203345.png",
     "Pasted image 20250709203341.png",
-    "claude-screenshot/zenn-article.md",
     "無題のファイル.md",
     "claude-screenshot/README_ja.md",
     "claude-screenshot/install.ps1",
@@ -294,7 +296,6 @@
     "claude-screenshot/claude-commands/ssshow.md",
     "claude-screenshot/claude-commands/ss.md",
     "claude-screenshot/README.md",
-    "claude_screenshot20250709.md",
     "Screenshots.md",
     "Welcome.md",
     "無題のファイル.canvas"

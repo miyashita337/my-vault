@@ -54,3 +54,5 @@ grep: ./.git: Is a directory
 では
 https://github.com/miyashita337/claude-screenshot
 をみてQuickStartを実行してください
+
+
