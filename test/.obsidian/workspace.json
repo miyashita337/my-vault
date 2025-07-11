@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "claude-screenshot/無題のファイル.md",
+                "file": "claude-screenshot/zen用の記事.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "無題のファイル"
+              "title": "zen用の記事"
             }
           },
           {
@@ -168,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "claude-screenshot/無題のファイル.md",
+                "file": "claude-screenshot/zen用の記事.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "無題のファイルのアウトライン"
+              "title": "zen用の記事のアウトライン"
             }
           }
         ],
@@ -198,9 +198,10 @@
   },
   "active": "d103c86e0787ae32",
   "lastOpenFiles": [
+    "claude-screenshot/無題のファイル.md",
+    "claude-screenshot/zen用の記事.md",
     "依頼書20250709.md",
     "画像評価システム、再実行依頼書20250709.md",
-    "claude-screenshot/無題のファイル.md",
     "Screenshots.md",
     "claude_screenshot20250709.md",
     "Pasted image 20250710005544.png",
