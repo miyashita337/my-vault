@@ -4,6 +4,9 @@ Thumbs.db
 
 # Obsidian内キャッシュ（履歴・UI位置など）
 .obsidian/workspace
+.obsidian/workspace.json
+test/.obsidian/workspace.json
+**/.obsidian/workspace.json
 .obsidian/cache
 
 # モバイル環境で使っていた場合のログ
