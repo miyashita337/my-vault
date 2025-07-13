@@ -1,0 +1,142 @@
+{
+    "folders": [
+        {
+            "name": "My Vault - Documentation",
+            "path": "./my-vault"
+        }
+    ],
+    "settings": {
+        "peacock.color": "#607D8B",
+        "files.associations": {
+            "*.md": "markdown",
+            "*.canvas": "json"
+        },
+        "markdown.preview.fontSize": 14,
+        "markdown.preview.lineHeight": 1.6,
+        "markdown.extensions": [
+            "markdown-it-katex",
+            "markdown-it-tasklist"
+        ],
+        "files.exclude": {
+            "**/.git": false,
+            "**/.obsidian": true,
+            "**/node_modules": true
+        },
+        "search.exclude": {
+            "**/.obsidian": true
+        },
+        "git.ignoreLimitWarning": true,
+        "terminal.integrated.cwd": "./my-vault",
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 100,
+        "editor.formatOnSave": false,
+        "editor.quickSuggestions": {
+            "comments": true,
+            "strings": true,
+            "other": true
+        },
+        "markdown.suggest.paths.enabled": true,
+        "workbench.editorAssociations": {
+            "*.canvas": "default"
+        },
+        "workbench.colorCustomizations": {
+            "activityBar.activeBackground": "#7a96a3",
+            "activityBar.background": "#7a96a3",
+            "activityBar.foreground": "#15202b",
+            "activityBar.inactiveForeground": "#15202b99",
+            "activityBarBadge.background": "#714e66",
+            "activityBarBadge.foreground": "#e7e7e7",
+            "commandCenter.border": "#e7e7e799",
+            "sash.hoverBorder": "#7a96a3",
+            "statusBar.background": "#607d8b",
+            "statusBar.foreground": "#e7e7e7",
+            "statusBarItem.hoverBackground": "#7a96a3",
+            "statusBarItem.remoteBackground": "#607d8b",
+            "statusBarItem.remoteForeground": "#e7e7e7",
+            "titleBar.activeBackground": "#607d8b",
+            "titleBar.activeForeground": "#e7e7e7",
+            "titleBar.inactiveBackground": "#607d8b99",
+            "titleBar.inactiveForeground": "#e7e7e799"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "yzhang.markdown-all-in-one",
+            "shd101wyy.markdown-preview-enhanced",
+            "davidanson.vscode-markdownlint",
+            "ms-vscode.vscode-json",
+            "bierner.markdown-mermaid",
+            "tchayen.markdown-links",
+            "foam.foam-vscode"
+        ]
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "Count Markdown Files",
+                "type": "shell",
+                "command": "find . -name '*.md' | wc -l && echo 'markdown files found'",
+                "group": "build",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always"
+                }
+            },
+            {
+                "label": "List Recent Files",
+                "type": "shell",
+                "command": "find . -name '*.md' -mtime -7 -exec ls -la {} \\;",
+                "group": "build",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always"
+                }
+            },
+            {
+                "label": "Search TODO Items",
+                "type": "shell",
+                "command": "grep -r 'TODO\\|FIXME\\|NOTE' --include='*.md' .",
+                "group": "build",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always"
+                }
+            },
+            {
+                "label": "Markdown Lint Check",
+                "type": "shell",
+                "command": "markdownlint **/*.md",
+                "group": "test",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always"
+                }
+            },
+            {
+                "label": "Generate File Tree",
+                "type": "shell",
+                "command": "tree -I 'node_modules|.git|.obsidian' > file_structure.txt && echo 'File tree generated in file_structure.txt'",
+                "group": "build",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always"
+                }
+            },
+            {
+                "label": "Create Daily Note",
+                "type": "shell",
+                "command": "touch \"$(date +%Y-%m-%d).md\" && echo \"# $(date +%Y-%m-%d)\\n\\n## Tasks\\n\\n## Notes\\n\\n## References\" > \"$(date +%Y-%m-%d).md\"",
+                "group": "build",
+                "presentation": {
+                    "echo": true,
+                    "reveal": "always"
+                }
+            }
+        ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": []
+    }
+}
