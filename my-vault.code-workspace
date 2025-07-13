@@ -2,7 +2,7 @@
     "folders": [
         {
             "name": "My Vault - Documentation",
-            "path": "./my-vault"
+            "path": "."
         }
     ],
     "settings": {
@@ -26,7 +26,7 @@
             "**/.obsidian": true
         },
         "git.ignoreLimitWarning": true,
-        "terminal.integrated.cwd": "./my-vault",
+        "terminal.integrated.cwd": "${workspaceFolder}",
         "editor.wordWrap": "on",
         "editor.wordWrapColumn": 100,
         "editor.formatOnSave": false,
