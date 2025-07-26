@@ -49,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "PROGRESS_TRACKER.md",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -86,7 +86,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "927356fe8023d13d",
