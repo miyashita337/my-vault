@@ -115,15 +115,27 @@
   4. Gemini API利用について
 >    - APIキーの取得は可能ですか？
     - 無料枠（60クエリ/分）で十分ですか？
-すでにあります
 
-  
+
+すでにあります
+GEMINI_API_KEY="AIzaSyBKwcKfAaqkH1odjpuMxRiDuD96kLB2A6g"
+これがだめなら
+GEMINI_API_KEY="AIzaSyBmdpqDjtXZqDcNcvKMi39wwEuVG_1Y2QI"
+
   
   2. GitHub Actions利用について
     - プライベートリポジトリですか？（無料枠制限あり）
+はい ClaudeCodeGithubActionまで動かせれる状態です
+https://github.com/miyashita337/segment-anything/actions/runs/16576011760/job/46880349368
+/ss  
+https://github.com/miyashita337/segment-anything/settings/secrets/actions
+
+
     - 既存のCI/CD設定はありますか？
-  3. 品質基準について
+あるかもしれない、ないかもしれない、あれば更新して利用できるようにしたい、なければ新規で作って
+
+  2. 品質基準について
     - 現在の品質スコア（0.7以上）を維持必須ですか？
     - 多少の精度低下は許容できますか？
-  4. 作業時間について
+  3. 作業時間について
     - 初期設定に何時間程度割けますか？
