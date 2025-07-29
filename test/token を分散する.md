@@ -166,3 +166,12 @@ https://github.com/miyashita337/segment-anything/settings/secrets/actions
      ☐ 第4週: テンプレート・スニペット集整備
 
 今どういう状況？
+
+
+>    - 残り: テスト実行と動作確認
+
+テスト実行動作確認をしてほしい
+```
+PH3-007
+```
+テストとしてこのトラッカーをreleaseまでもっていって
