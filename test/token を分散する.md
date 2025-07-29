@@ -176,11 +176,33 @@ PH3-007
 ```
 テストとしてこのトラッカーをreleaseまでもっていって
 
+
+
 >│   export GEMINI_API_KEY="AIzaSyBKwcKfAaqkH1odjpuMxRiDuD96kLB2A6g" && ./tools/automation/gemini_helper.sh "Generate a simple README template for PH3-007 tracker"
 │   --format markdown    
 │   Test Gemini helper with simple task                            
 
 毎回GEMINI_API_KEYを指定せず、config直下に設定ファイルを用意してください
-他のファイルでもGEMINI_API_KEYを読み込んでる箇所があったと思います
+他のファイルでもGEMINI_API_KEYを読み込んでる箇所があったと思ってましたが、、、、argsだったので引数でしたね、すいません、ここも含めて設定ファイルを読み込むように直してほしい
 features\evaluation\image_evaluation_mcp.py
 
+```
+class ImageEvaluationMCP:
+    """GPT-4O + Gemini フォールバック画像評価システム"""
+    def __init__(self, openai_api_key: Optional[str] = None, gemini_api_key: Optional[str] = None):
+        """
+        初期化
+        Args:
+            openai_api_key: OpenAI API キー
+            gemini_api_key: Gemini API キー
+        """
+        self.openai_api_key = openai_api_key or os.getenv('OPENAI_API_KEY')
+        self.gemini_api_key = gemini_api_key or os.getenv('GEMINI_API_KEY')
+...
+    # 評価システム初期化
+    evaluator = ImageEvaluationMCP(
+        openai_api_key=args.openai_key,
+        gemini_api_key=args.gemini_key
+    )
+	   
+```
