@@ -165,3 +165,4 @@ https://github.com/miyashita337/segment-anything/settings/secrets/actions
      ☐ 第3週: GitHub Actions強化
      ☐ 第4週: テンプレート・スニペット集整備
 
+今どういう状況？
