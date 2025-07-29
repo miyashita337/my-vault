@@ -217,3 +217,8 @@ class ImageEvaluationMCP:
 
 アイムアウトが発生するなら、作りを非同期にするとか別のアーキテクチャを考慮してみて
 shellである必要もないですし、非同期APIの設計で考えて作ってみるなど、いろいろな方法で対策を考えて
+
+
+>  python3 tools/automation/parallel_tracker_runner.py PH3-007  # ✅ 2-3分で完了
+
+これではタイムアウトは起きますか？executionもちゃんとセットして非同期だとしても抽出プログラムは実行されますか？
