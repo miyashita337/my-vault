@@ -154,14 +154,14 @@ https://github.com/miyashita337/segment-anything/settings/secrets/actions
 １〜２時間ほど
 
 
+
+いったんテストで別の簡単なタスクを選んで、最初から最後のreleaseまで問題なく、ワークフローを一気通貫で通るか、正しくファイルが出力するか確認してください
+ソレが終わった後GeminiCLIを導入しましょう
+
   >● Update Todos
   ⎿  ☒ Claude利用制限対策タスクをGoogle Sheetsに起票
      ☒ 第1週: 定型作業自動化スクリプト作成
      ☐ 第2週: Gemini CLI連携システム構築
      ☐ 第3週: GitHub Actions強化
      ☐ 第4週: テンプレート・スニペット集整備
-
-いったんテストで別の簡単なタスクを選んで、最初から最後のreleaseまで問題なく、ワークフローを一気通貫で通るか、正しくファイルが出力するか確認してください
-ソレが終わった後Ge
-
 
