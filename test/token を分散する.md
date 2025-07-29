@@ -175,3 +175,12 @@ https://github.com/miyashita337/segment-anything/settings/secrets/actions
 PH3-007
 ```
 テストとしてこのトラッカーをreleaseまでもっていって
+
+>│   export GEMINI_API_KEY="AIzaSyBKwcKfAaqkH1odjpuMxRiDuD96kLB2A6g" && ./tools/automation/gemini_helper.sh "Generate a simple README template for PH3-007 tracker"
+│   --format markdown    
+│   Test Gemini helper with simple task                            
+
+毎回GEMINI_API_KEYを指定せず、config直下に設定ファイルを用意してください
+他のファイルでもGEMINI_API_KEYを読み込んでる箇所があったと思います
+features\evaluation\image_evaluation_mcp.py
+
