@@ -143,6 +143,7 @@ ignored_paths:
   - "**/*.pyc"
 
   - "**/*.pyo"
+- 
 
   - "**/*.egg-info/**"
 
