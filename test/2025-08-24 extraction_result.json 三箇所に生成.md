@@ -128,3 +128,15 @@ Quality Workflowの存在は問題があります
 unified_quality_checker.py　このプログラムが実行される時は どのようなパターンやワーグフローが実行されますでしょうか?ドキュメントや実装をみて調査してみて
 
 
+-----------
+
+
+│ │ - create_phase1_extraction_report.py: 固定品質スコア使用（問題あり）                                      │ │ - unified_quality_checker.py: 実際のOpenCV分析実行（問題なし）                                                │ │ 解決方針：                                                                                                                                                │ │ 1. create_phase1_extraction_report.pyの修正: 固定値→実際の画像分析                                         │ │ 2. unified_quality_checker.pyの活用: 正確な品質分析の標準化                                                         │ │ 3. Quality Workflowの改善: より信頼性の高いワークフロー統合
+
+
+
+どちらが工数的に楽か、影響範囲が低いか、そもそもどちらを推奨するか調査して
+
+OpttionA
+
+Quality Workflow(create_phase1_extraction_report.py)このプログラムの実装内容を unified_quality_checker.pyの関数を流用する
