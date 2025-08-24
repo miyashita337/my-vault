@@ -119,4 +119,8 @@
   │ | Quality Workflow         | 固定推定値              | ❌ 推定のみ        | ❌                  | 簡易JSON   |      
 
 																		   │
- 
+    # deprecated/progress_tracker_legacy/universal_statistical_analyzer.py
+これらのプログラムは非推奨のためそのうち削除される予定なのでこれはまあいいとして
+Quality Workflowの存在はモンダイあります
+unified_quality_checker.py　
+
