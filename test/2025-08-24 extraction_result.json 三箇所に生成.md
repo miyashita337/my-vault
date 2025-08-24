@@ -118,9 +118,13 @@
   | Statistical Analyzer       | UQCに委譲              | ✅ UQC経由       | ✅ 比較分析 | 統計特化JSON |    
   │ | Quality Workflow         | 固定推定値              | ❌ 推定のみ        | ❌                  | 簡易JSON   |      
 
-																		   │
-    # deprecated/progress_tracker_legacy/universal_statistical_analyzer.py
+
+
+│
+ deprecated/progress_tracker_legacy/universal_statistical_analyzer.py
 これらのプログラムは非推奨のためそのうち削除される予定なのでこれはまあいいとして
-Quality Workflowの存在はモンダイあります
-unified_quality_checker.py　
+
+Quality Workflowの存在は問題があります
+unified_quality_checker.py　このプログラムが実行される時は どのようなパターンやワーグフローが実行されますでしょうか?ドキュメントや実装をみて調査してみて
+
 
