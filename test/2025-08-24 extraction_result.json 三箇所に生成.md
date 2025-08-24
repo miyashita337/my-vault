@@ -108,3 +108,7 @@
    
 3️⃣ 品質ワークフロー実行時
   # tools/scripts/run_quality_workflow.sh
+
+この3つのPythonの実行はそれぞれ同じ extract_result.json を出力するのでしょうか。
+それとも一つ一つがそれぞれ必要なextract_result.jsonを出力してしまってコマンドのPythonによって内容の差異が生じてしまうものでしょうか
+
