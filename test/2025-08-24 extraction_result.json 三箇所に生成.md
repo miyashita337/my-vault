@@ -136,7 +136,13 @@ unified_quality_checker.py　このプログラムが実行される時は ど�
 
 
 どちらが工数的に楽か、影響範囲が低いか、そもそもどちらを推奨するか調査して
+基本的にはリファクタリングを方針としています。基本的にシングルトンというか、一元管理を考えております。
 
 OpttionA
+Quality Workflow(create_phase1_extraction_report.py)このプログラムの実装内容を unified_quality_checker.pyの関数に置き換える
 
-Quality Workflow(create_phase1_extraction_report.py)このプログラムの実装内容を unified_quality_checker.pyの関数を流用する
+OptionB
+Quality Workflow(create_phase1_extraction_report.py)このプログラムをそもそも削除し、このプログラムをcallしていた箇所そのもののドキュメント(mdファイル)を修正する。
+
+もし認識が間違っていたら指摘をしてください。その他ヒアリング事項とかあればお気軽に質問してください。
+
