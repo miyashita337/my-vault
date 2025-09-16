@@ -172,3 +172,32 @@ CLAUDE.mdから、他のドキュメント、そこから他のドキュメン�
 
 
 はい、まずは計画書を教えて
+
+
+1. docs/workflows/templates/unified_tracker_template.md - 統合テンプレート
+2. docs/workflows/checklists/tracker_workflow_checklist.md - 13ステップ必須チェックリスト
+shakufuku@uss-enterprise:/mnt/c/AItools/segment-anything$ cat .claude/hooks.json
+{
+  "hooks": {
+    "PreToolUse": {
+      "command": "bash tools/hooks/hybrid_workflow_compliance.sh",
+      "match": {
+        "tool": "Bash",
+        "args.command": "*extract_character.py*|*progress_tracker/cli.py*|*run_quality_workflow.sh*|*python*tracker*"
+      },
+      "description": "INTG-087: ハイブリッド検証システム - 厳格検証（品質保証）+ セマンティック補完（柔軟性）の組み合わせ"
+    },
+    "PostToolUse": {
+      "command": "bash tools/hooks/update_workflow_progress.sh",
+      "match": {
+        "tool": "Bash",
+        "args.command": "*extract_character.py*|*progress_tracker/cli.py*|*run_quality_workflow.sh*|*python*tracker*"
+      },
+      "description": "INTG-086: ワークフロー進捗更新 - 13ステップ個別・チェックリスト項目レベル進捗記録"
+    },
+    "UserPromptSubmit": {
+      "command": "bash tools/hooks/analyze_tracker_context.sh",
+      "description": "INTG-086: トラッカーコンテキスト分析 - フェーズ別状況確認・13ステップ進捗表示・次アクション提案"
+    }
+  }
+
