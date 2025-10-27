@@ -150,3 +150,20 @@ C：今SmartHRにある挑戦環境
 ＊SRE文化
 　＊プロダクト(労務タレントマネジメントなど)のチームにSREの人員がアサインされておりますでしょうか？
 　＊知りたかったのは、SREというチームが独立していいてほかプロダクトごとチームと別々に分けてるか？プロダクトのチーム内にSREの意識があるか、例えば障害対応や顧客対応はプロダクトチームが最終的なフォローをするかなどを知りたかったです
+
+
+
+
+## 4) ML基盤連携：Sparkで特徴量生成 → SageMakerで学習/推論
+
+**使いどころ**：**大規模前処理はSpark、学習はSageMaker**に分担  
+**流れ**：
+
+- 原本S3 → Sparkで前処理/特徴量抽出 → **Feature Store or S3**
+    
+- **SageMaker Training/Processing**で学習 → **Model Registry**
+    
+- **Batch Transform/Endpoint**で推論、ログはS3/CloudWatch  
+    **IaC(主)**：S3、Glue/EMR、SageMaker（Role/Processing/Training/Model/Endpoint）、Feature Store、CodePipelineでPySpark/MLコードの継続配布
+
+
