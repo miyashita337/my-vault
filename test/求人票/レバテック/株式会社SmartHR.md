@@ -167,3 +167,4 @@ C：今SmartHRにある挑戦環境
     **IaC(主)**：S3、Glue/EMR、SageMaker（Role/Processing/Training/Model/Endpoint）、Feature Store、CodePipelineでPySpark/MLコードの継続配布
 
 
+
