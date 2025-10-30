@@ -1,11 +1,13 @@
-	SmartHRの求人表を見て
+SmartHRの求人表を見て
+
 面接用の
-「志望動機」「」「」
+「志望動機」「」
 を一緒に考えてください、ヒアリングして
 
 ーーー
 求人票
-
+https://speakerdeck.com/smarthr/pde-job-guide-2025?slide=41
+CREエンジニア
 
 CREについて
 https://tech.smarthr.jp/entry/cre-matome
