@@ -99,3 +99,34 @@ AIのコンテキスト管理って前々からちゃんとやりたかったし
 
 
 
+----
+
+
+
+  ✅ Core機能
+
+  1. 対話履歴の完全保存
+    - 自分の発言 + Claude返答を両方保存
+    - compact前の状態を保存
+    - Markdown形式でGit管理
+  2. Token可視化
+    - 1セッションのtoken量をリアルタイム表示
+    - Lost-in-the-middle警告（しきい値設定可能）
+    - コンテキスト量の定量化グラフ
+  3. Compactタイミング通知
+    - compactされる前に警告
+    - compact前後の差分表示
+  4. 検索・Export
+    - 過去の対話履歴を全文検索
+    - Obsidian連携（Markdown保存）
+    - Zenn記事化用のExport
+
+  🔧 技術スタック案
+
+  - 言語: Rust or TypeScript/Node.js（あなたの得意分野）
+  - 保存: Git + Markdown（Obsidian互換）
+  - CLI: Claude Code のhook統合
+  - UI: TUI（Terminal UI）or Web Dashboard
+両方対応してほしい。最初はコマンドだけど、最終的にWerb上から〜が話した、AIが返却したのようなChatGPTやClaudeWeb版やGeiminiWeb版のようなUIってたしか
+  ---
+
