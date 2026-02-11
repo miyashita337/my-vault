@@ -146,3 +146,10 @@ AIのコンテキスト管理って前々からちゃんとやりたかったし
   ---
 
 はい、BからはじめてAにしてほしいです
+
+
+---
+
+  Rust vs TypeScript/Node.js どちらがベストか？
+  TypeScript/Node.jsで進めて
+
