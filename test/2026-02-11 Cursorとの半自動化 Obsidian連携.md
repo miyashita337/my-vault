@@ -153,3 +153,15 @@ AIのコンテキスト管理って前々からちゃんとやりたかったし
   Rust vs TypeScript/Node.js どちらがベストか？
   TypeScript/Node.jsで進めて
 
+
+Resume this session with:                                                                                                                            
+claude --resume d92dda20-b7ee-4411-b073-29c9f22f9491
+(base) 
+[harieshokunin@SG1Atrantis-2:~/claude-context-manager]
+$ pwd
+/Users/harieshokunin/claude-context-manager
+(base) 
+[harieshokunin@SG1Atrantis-2:~/claude-context-manager]
+
+ccresumeで復帰した場合、意味ないのでしょうか？
+まだ実装が途中だったので、claudeの再起動をするなら、
