@@ -112,8 +112,13 @@ AIのコンテキスト管理って前々からちゃんとやりたかったし
   2. Token可視化
     - 1セッションのtoken量をリアルタイム表示
     - Lost-in-the-middle警告（しきい値設定可能）
+	    - 正直しきい値は可能なのかどうかわからないけど
+	    - ハルシネーションやCLAUDE.mdの規約に反したことをするというのは
+	    - 何度かやり取りをしたらすぐに、ユーザーはわかりますので、１００回、１０００回教師をやったらわかるのではない？って甘い見立てを考えてます
     - コンテキスト量の定量化グラフ
+	    - これもあるとうれしいですね
   3. Compactタイミング通知
+	  1.最初はしきい値がわからないけどある程度ｓ
     - compactされる前に警告
     - compact前後の差分表示
   4. 検索・Export
@@ -127,6 +132,13 @@ AIのコンテキスト管理って前々からちゃんとやりたかったし
   - 保存: Git + Markdown（Obsidian互換）
   - CLI: Claude Code のhook統合
   - UI: TUI（Terminal UI）or Web Dashboard
-両方対応してほしい。最初はコマンドだけど、最終的にWerb上から〜が話した、AIが返却したのようなChatGPTやClaudeWeb版やGeiminiWeb版のようなUIってたしか
+	* 両方対応してほしい。
+	* 最初はコマンドだけでいい
+		* 次のリリースで最終的にWerb上から
+			* YYYY-MM-DD HH:M:SS 〜が話した
+			* YYYY-MM-DD HH:M:SS AIが返却した
+				* のようなChatGPTやClaudeWeb版やGeiminiWeb版のようなUIってたしかテンプレートがあるという話を聞いたことがある
+				* ![[Pasted image 20260211223330.png]]
+				  ![[Pasted image 20260211223353.png]]
   ---
 
