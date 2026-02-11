@@ -165,3 +165,16 @@ $ pwd
 
 ccresumeで復帰した場合、意味ないのでしょうか？
 まだ実装が途中だったので、claudeの再起動をするなら、
+
+
+
+動作確認手順
+
+  1. Claude CLIを再起動
+  2. 簡単な対話を実行（例：「こんにちは」）
+  3. 一時ログを確認：
+  ls ~/.claude/context-history/.tmp/
+  4. セッション終了後、Markdownを確認：
+  ls ~/.claude/context-history/sessions/$(date +%Y-%m-%d)/
+
+今まさにClaude CLIを再起動しました。2番目以降から実行して、一時ログが出来上がっているか確認してほしいです。
